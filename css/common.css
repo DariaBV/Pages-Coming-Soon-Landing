@@ -12,15 +12,14 @@
 }
 
 body {
-    background: url(../img/leaf.webp) no-repeat;
-    /* transform: translate (50.63% 31.87%); */
-    background: linear-gradient(rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8)), url(../img/leaf.webp) no-repeat;
-    filter: saturate(150%);
+    background: url(../img/leaf.webp)  50.63% 31.87% / cover no-repeat;
+    /* filter: saturate(150%); */
     color: var(--light-color);
 }
 
 .section__leaf-company {
-    padding: 170px 0;
+    padding: 100px 0;
+    background: rgba(20, 20, 20, 0.8); 
 }
 
 .container {
@@ -30,11 +29,17 @@ body {
 }
 
 @media (min-width: 768px) {
+    .section__leaf-company {
+        padding: 135px 0;
+    }
     .container {
         padding: 0 32px;
     }
 }
 @media (min-width: 992px) {
+    .section__leaf-company {
+        padding: 170px 0;
+    }
     .container {
         padding: 0 40px;
     }
