@@ -77,11 +77,11 @@
 }
 
 .form__input:focus {
-    outline-color: #3b99fc;
+    outline-color: var(--outline-color);
 }
 
 .form-button:hover {
-    background-color: #298e12;
+    background-color: var(--form-button-color);
     color: var(--light-color);
     cursor: pointer;
 }

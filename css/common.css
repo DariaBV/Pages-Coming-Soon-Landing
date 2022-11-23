@@ -9,6 +9,8 @@
 
 :root {
     --light-color: #fff;
+    --form-button-color: #298e12;
+    --outline-color: #3b99fc;
 }
 
 body {
