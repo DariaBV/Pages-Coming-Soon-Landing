@@ -1,0 +1,94 @@
+.title-coundown {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6
+}
+
+.main-contant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.text-countdown {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    /* line-height: 1.4; */
+}
+
+.coundown__leaf-company {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 57.26px;
+    width: 100%;
+}
+
+.text-coundown__leaf-company {
+    margin-top: 20px;
+   
+}
+
+.launch-days,
+.launch-hours,
+.launch-minutes,
+.launch-seconds {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.launch-countdown-time-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 75%;
+}
+
+.launch-countdown-time-text {
+    opacity: .54;
+}
+
+.coundown-vertical-line {
+    position: absolute;
+    width: 1px;
+    max-height: 90px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: .125;
+    background-color: var(--light-color);
+
+}
+
+.vertical-line {
+    position: relative;
+}
+
+.launch-days-box,
+.launch-hours-box,
+.launch-minutes-box,
+.launch-seconds-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+} */
+@media (min-width: 992px) {
+    .main-contant {
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1280px) {
+    .main-contant {
+        margin-top: 50px;
+    }
+}

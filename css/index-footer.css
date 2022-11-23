@@ -1,0 +1,61 @@
+.footer {
+    margin-top: 50px;
+}
+
+.social-icon__container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icon {
+    fill: var(--light-color);
+    margin: 0 7.5px 15px;
+}
+
+.social-icon:hover {
+    fill: transparent;
+}
+
+svg {
+    width: 36px;
+    height: 36px;
+    /* fill: var(--light-color); */
+    /* fill: transparent; */
+}
+
+.icon-outer {
+    fill: transparent;
+}
+
+.icon-outer:hover {
+    fill: var(--light-color);
+}
+.outlined_2wD .outer_bDW  {
+    /* fill: transparent; */
+    fill: red
+
+}
+/* .outlined_2wD:hover
+.outer_bDW:hover {
+    fill: var(--light-color); 
+} */
+
+.border_2yy {
+    fill: var(--light-color);
+}
+/* .border_2yy:hover {
+    fill: transparent;
+} */
+
+/* .logo_2gS {
+    fill: var(--light-color);
+}
+.logo_2gS:hover {
+    fill: transparent;
+} */

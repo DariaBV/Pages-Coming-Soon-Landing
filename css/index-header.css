@@ -1,0 +1,28 @@
+.header {
+    padding: 0 15px;
+}
+
+.header-title {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    /* font-size: 40px; */
+    font-size: 58px;
+    line-height: 1.1
+    
+}
+
+@media (min-width: 768px) {
+    .header-title {
+        font-size: 60px;
+    }
+}
+/* @media (min-width: 992px) {
+    .main-contant {
+        margin-top: 50px;
+    }
+}
+@media (min-width: 1280px) {
+    .main-contant {
+        margin-top: 50px;
+    }
+} */
