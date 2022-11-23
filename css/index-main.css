@@ -28,7 +28,6 @@
 
 .text-coundown__leaf-company {
     margin-top: 20px;
-   
 }
 
 .launch-days,
@@ -85,8 +84,8 @@
         margin-top: 50px;
     }
 }
-@media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
     .main-contant {
         margin-top: 50px;
     }
-}
+} */
