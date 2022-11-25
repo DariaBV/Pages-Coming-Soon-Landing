@@ -41,9 +41,6 @@
 .launch-countdown-time-text {
     font-family: 'Lato', sans-serif;
     font-size: 75%;
-}
-
-.launch-countdown-time-text {
     opacity: .54;
 }
 
@@ -74,18 +71,37 @@
     align-items: center;
 }
 
-/* @media (min-width: 768px) {
-    .container {
-        padding: 0 32px;
+@media (min-width: 450px) {
+    .launch-days,
+    .launch-hours,
+    .launch-minutes,
+    .launch-seconds {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 26px;
     }
-} */
+    .launch-countdown-time-text {
+        font-size: 20px;
+    }
+}
 @media (min-width: 992px) {
     .main-contant {
         margin-top: 50px;
     }
-}
-/* @media (min-width: 1280px) {
-    .main-contant {
-        margin-top: 50px;
+
+    .coundown__leaf-company {
+        max-width: 760px;
     }
-} */
+
+    .launch-days,
+    .launch-hours,
+    .launch-minutes,
+    .launch-seconds {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .launch-countdown-time-text {
+        font-size: 23px;
+    }
+}
